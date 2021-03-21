@@ -26,7 +26,7 @@ TWILIO_PHONE_NUMBER = "+12243026503"
 DIAL_NUMBERS = ["+918608550403"]
 TWIML_INSTRUCTIONS_URL = \
   "http://static.fullstackpython.com/phone-calls-python.xml"
-client = Client("ACbf7167e386e0c2cc7966460a82dcaac2", "1df9158670fac6f94b989af64bc73d50")
+client = Client("ACbf7167e386e0c2cc7966460a82dcaac2", "0bd6964c5bc9ee6613b9f4a553ca8ad7") # Check Auth token, it may change in times!
 
 # Function to make call
 def dial_numbers():
