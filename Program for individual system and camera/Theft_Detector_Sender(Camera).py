@@ -1,8 +1,5 @@
 import cv2, datetime, os, time, numpy as np, subprocess
 
-# http connection for transferring files(like socket, ftp...)
-process = subprocess.Popen("xfce4-terminal -x python3 -m http.server 22111", shell=True)
-
 # Camera ON
 video = cv2.VideoCapture(0)
 image_frame = 0
@@ -52,6 +49,10 @@ def dl():
     cv2.imwrite(f"/home/linuxlite/Desktop/Dl_processed/{frame_uid}", img)
     time.sleep(2)
     os.remove("/home/linuxlite/Desktop/frames/snap.jpg")
+    
+# http connection for transferring files(like socket, ftp...)
+# process = subprocess.Popen("xfce4-terminal -x python3 -m http.server 22111", shell=True)
+# Above line triggers the terminal for http connectivity but it isn't working!!
 
 # Movement detecting
 while video.isOpened:
