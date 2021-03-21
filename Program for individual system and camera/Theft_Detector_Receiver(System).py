@@ -52,7 +52,7 @@ def cloud():
 while True:
     #driver.refresh()
     time.sleep(2)
-    url = 'http://192.168.43.41:22111/frames/snap.jpg'
+    url = 'http://192.168.43.41:22111/Desktop/frames/snap.jpg'
     r = requests.get(url)
 
     open('/home/pi/Desktop/frames/snap.jpg', 'wb').write(r.content)
