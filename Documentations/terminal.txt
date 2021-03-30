@@ -1,5 +1,5 @@
 NOTES:
-# Http server activation
+# Http server activation in terminal 
 python3 -m http.server 22111
 
 # Check path
