@@ -1,16 +1,18 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img src="https://github.com/Akash-Peace/FIREBASE-ANDROIDSTUDIO/blob/main/drawable/tent.png" alt="Logo" width="150" height="150">
+  <img src="https://github.com/Akash-Peace/IOT-PI-DL/blob/main/Screenshots/theft_detector_logo.png" alt="Logo" width="150" height="150">
   <h3 align="center">THEFT DETECTOR</h3>
   <p align="center">
-    <a href="https://developer.android.com/studio"><strong>Raspberry Pi Based IoT</strong></a>
+    <a href="https://en.wikipedia.org/wiki/Internet_of_things"><strong>IoT</strong></a>
+    .
+    <a href="https://www.raspberrypi.org/"><strong>Raspberry Pi</strong></a>
     <br />
     <br />
-    <a href="https://drive.google.com/file/d/1fOo9mwI7Qe7AYYuPR31_liXdXGdyxBm7/view?usp=sharing">View Documentation</a>
+    <a href="https://github.com/Akash-Peace/IOT-PI-DL/tree/main/Documentations">View Documentations</a>
     ·
-    <a href="https://github.com/Akash-Peace/FIREBASE-ANDROIDSTUDIO/issues">Report Bug</a>
+    <a href="https://github.com/Akash-Peace/IOT-PI-DL/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Akash-Peace/FIREBASE-ANDROIDSTUDIO/issues">Request Feature</a>
+    <a href="https://github.com/Akash-Peace/IOT-PI-DL/issues">Request Feature</a>
   </p>
 </p>
 
@@ -64,8 +66,8 @@ Theft detector project objective is to track the surveillance area and alert the
 
 ## Installation
 
-Step 1: Download [Sender_Camera.py]() file in system and [Receiver_System.py]() file in raspberry pi.\
-Step 2: Activate [http server]() through system terminal.\
+Step 1: Download [Sender_Camera.py](https://github.com/Akash-Peace/IOT-PI-DL/blob/main/Program%20for%20individual%20system%20and%20camera/Theft_Detector_Sender(Camera).py) file in system and [Receiver_System.py](https://github.com/Akash-Peace/IOT-PI-DL/blob/main/Program%20for%20individual%20system%20and%20camera/Theft_Detector_Receiver(System).py) file in raspberry pi.\
+Step 2: Activate [http server](https://github.com/Akash-Peace/IOT-PI-DL/blob/main/Documentations/terminal.txt) through system terminal.\
 Step 3: Run Receiver_System.py and then Sender_Camera.py.
 
 
@@ -77,13 +79,13 @@ Usage of this project is to track the theft under the surveillance area and aler
 
 ## Screenshots
 
-View [Screenshots](https://github.com/Akash-Peace/FIREBASE-ANDROIDSTUDIO/tree/main/screenshots) here.
+View [Screenshots](https://github.com/Akash-Peace/IOT-PI-DL/tree/main/Screenshots) here.
 
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/Akash-Peace/FIREBASE-ANDROIDSTUDIO/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/Akash-Peace/IOT-PI-DL/blob/main/LICENSE) for more information.
 
 
 
